@@ -1,11 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-}
-
-* {
     background: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -29,7 +22,7 @@ main {
     border: none;
     color: #0A3871;
     margin-top: 90px;
-    text-transform: lowercase;
+    resize: none;
 }
 
 ::placeholder { color: #0A3871; }
@@ -37,21 +30,30 @@ main {
         outline: none;
     }
 
-.msg-not-found{
-    background: #FFFFFF;
-    background-image: url(/assets/images/boneco-com-lupa.png);
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
+.requirements, span {
+    color: #495057;
+    font-size: 18px;
 }
 
-.msg-nor-found:focus {
-    outline: none;
+section .result {
+    width: 400px;
+    height: 944px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+}
+
+.result, img {
+    background-color: #FFFFFF;
+}
+
+.result, h3, p {
+    background-color: #FFFFFF;
+}
+
+.result, h3 {
+    color:#0A3871;
+
 }
 
 .buttons {
@@ -80,7 +82,7 @@ main {
     width: 328px;
 }
 
-.btn-copy {
+/** .btn-copy {
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
@@ -90,24 +92,25 @@ main {
     margin-top: 402px;
     position: absolute;
     width: 336px;
-}
-
-.requirements {
-    color: #495057;
-    font-size: 5px;
-}
+} **/
 
 footer {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
 }
 
 footer ul li {
    list-style: none;
+   display: inline-flex;
+   font-size: 15px;
+}
+
+footer img {
+    width: 12px;
+    height: 12px;
 }
 
 footer a {
     text-decoration: none;
+    color:#000;
+    font-size: 15px;
 }
