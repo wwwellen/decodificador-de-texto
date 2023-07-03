@@ -9,7 +9,6 @@
 .logo-alura {
     margin: 10px;
     padding-top: 10px;
-    width: 2%;
 }
 
 main {
@@ -32,7 +31,11 @@ main {
 
 .requirements, span {
     color: #495057;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+.requirements img {
+    width: 13px;
 }
 
 .result {
@@ -45,7 +48,7 @@ main {
 
 .buttons {
     display: flex;
-    margin-top: 18px;
+    margin-top: 25px;
 }
 
 .btn-encrypt {
