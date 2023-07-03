@@ -1,4 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+* {
     background: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -30,7 +37,7 @@ main {
         outline: none;
     }
 
-.text-encrypted {
+.msg-not-found{
     background: #FFFFFF;
     background-image: url(/assets/images/boneco-com-lupa.png);
     background-repeat: no-repeat;
@@ -43,7 +50,7 @@ main {
     position: fixed;
 }
 
-.text-encrypted:focus {
+.msg-nor-found:focus {
     outline: none;
 }
 
@@ -85,7 +92,22 @@ main {
     width: 336px;
 }
 
-.info {
+.requirements {
     color: #495057;
     font-size: 5px;
+}
+
+footer {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li {
+   list-style: none;
+}
+
+footer a {
+    text-decoration: none;
 }
