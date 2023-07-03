@@ -35,25 +35,12 @@ main {
     font-size: 18px;
 }
 
-section .result {
+.result {
     width: 400px;
-    height: 944px;
+    height: 499px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 24px;
-}
-
-.result, img {
-    background-color: #FFFFFF;
-}
-
-.result, h3, p {
-    background-color: #FFFFFF;
-}
-
-.result, h3 {
-    color:#0A3871;
-
 }
 
 .buttons {
@@ -96,6 +83,7 @@ section .result {
 
 footer {
     display: flex;
+    justify-content: center;
 }
 
 footer ul li {
