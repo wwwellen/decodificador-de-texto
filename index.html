@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/images/favicon-e.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles.css">
     <title> Decodificador </title>
 </head>
@@ -13,22 +14,23 @@
         <img class="logo-alura" src="/assets/images/logo-alura.png" alt="logo da alura">
     </header>
     <main> <!-- conteúdo principal -->
-        <section> <!-- seção da textarea de recebimento do valor inicial -->
+        <section class="textarea-value"> <!-- seção da textarea de recebimento do valor inicial -->
             <textarea class="text-area" cols="51" rows="5" placeholder="Digite seu texto"></textarea>
             <div class="requirements">
-                <img  src="assets/images/exclamation-circle.svg">
-                <span> Apenas letras minúsculas e sem acento. </span>
+                <p><img  src="assets/images/exclamation-circle.svg"> Apenas letras minúsculas e sem acento. </p>
             </div>
             <div class="buttons"> <!-- seção dos botões para cript e descrip -->
                 <button class="btn-encrypt"> Criptografar </button>
                 <button class="btn-decrypt"> Descriptografar </button>
             </div>
         </section>
-        <section> <!-- seção que retonar o resultado já compilado do valor inicial inserido -->
-            
+        <section class="result"> <!-- seção que retonar o resultado já compilado do valor inicial inserido -->
+                <img class="img-lupa" src="assets/images/boneco.svg">
+                <h3> Nenhum texto encontrado </h3>
+                <p> Digite um texto que você deseja criptografar ou descriptografar. </p>
         </section>
     </main>
-    <footer> <!-- rodapé com informações -->
+    <footer> <!-- rodapé com informações e redes sociais -->
         <ul>
             <li> &copy Desenvolvido por Ellen Teixeira | </li>
             <li><a href="https://github.com/wwwellen" target="_blank"><img src="assets/images/github-icon.svg"> GitHub | </a></li>

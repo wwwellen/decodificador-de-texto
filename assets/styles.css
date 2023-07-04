@@ -17,6 +17,10 @@ main {
     margin-left: 80px;
 }
 
+.textarea-value {
+    margin-left: 90px;
+}
+
 .text-area {
     border: none;
     color: #0A3871;
@@ -29,7 +33,7 @@ main {
         outline: none;
     }
 
-.requirements, span {
+.requirements, p {
     color: #495057;
     font-size: 15px;
 }
@@ -38,12 +42,18 @@ main {
     width: 13px;
 }
 
-.result {
-    width: 400px;
-    height: 499px;
-    background-color: #FFFFFF;
-    border: none;
+section .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 70vh;
+    width: 250px;
+    padding: 25px;
     border-radius: 24px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px #dbdbdb;
+    font-size: 20px;
 }
 
 .buttons {
